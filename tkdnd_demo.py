@@ -169,7 +169,7 @@ about_frame = tk.Frame(root, bg = '#9EA097')
 about_frame.grid(row=0, column=0, sticky="news", columnspan=2)
 about_to_main_btn = tk.Button(about_frame, text='Back',command=lambda:back_to_main(main_app_frame))
 about_to_main_btn.grid(row=0, column=0)
-about_label = tk.Label(about_frame, text="Made by TCbacon © 2021", bg = 'white')
+about_label = tk.Label(about_frame, text="Made by TCbacon 2021", bg = 'white')
 about_label.grid(row=1,column=1)
 
 
